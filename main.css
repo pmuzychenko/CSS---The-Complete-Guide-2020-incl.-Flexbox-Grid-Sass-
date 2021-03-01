@@ -53,5 +53,24 @@ body {
 
 .main-nav__item {
    display: inline-block;
+   margin: 0 16px;
+}
+
+.main-nav__item a {
+   color: #0e4f1f;
+   text-decoration: none;
+}
+
+.main-nav__item a:hover{
+   color: white;
+}
+
+.main-nav__item a:active{
+   color: white;
+}
+
+p::first-letter {
+   color: red;
+   font-size: 20px;
 }
 
