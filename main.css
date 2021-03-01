@@ -25,3 +25,24 @@ body {
    padding: 8px 16px;
    background: #2ddf5c;;
 }
+
+.main-header > div {
+   display: inline-block;
+}
+
+.main-nav {
+   display: inline-block;
+   text-align: right;
+   width: calc(100% - 54px);
+}
+
+.main-nav__items {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+}
+
+.main-nav__item {
+   display: inline-block;
+}
+
