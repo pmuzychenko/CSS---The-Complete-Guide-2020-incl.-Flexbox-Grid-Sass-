@@ -13,8 +13,10 @@ body {
    height: 528px;
    padding: 10px;
 }
+
 .section-title {
    color: #2ddf5c;
+   text-align: center;
 }
 
 #product-overview h1 {
@@ -22,12 +24,23 @@ body {
    font-family: 'Anton', sans-serif;
 }
 
-.main-header {
-   padding: 8px 16px;
-   background: #2ddf5c;;
+.plan {
+   background: #d5ffdc;
+   text-align: center;
+   padding: 16px;
+   margin: 8px;
+   width: 30%;
+   display: inline-block;
+   vertical-align: middle;
 }
 
-.main-header > div {
+.main-header {
+   padding: 8px 16px;
+   background: #2ddf5c;
+   ;
+}
+
+.main-header>div {
    display: inline-block;
    vertical-align: middle;
 }
@@ -64,23 +77,20 @@ body {
    padding: 3px 0;
 }
 
-.main-nav__item a:hover,
-.main-nav__item a:active {
+.main-nav__item a:hover, .main-nav__item a:active {
    color: white;
    border-bottom: 3px solid white;
 }
 
 .main-nav__item--cta a {
-color: white;
-background:  #ff1b68;
-padding: 8px 16px;
-border-radius: 8px;
+   color: white;
+   background: #ff1b68;
+   padding: 8px 16px;
+   border-radius: 8px;
 }
 
-.main-nav__item--cta a:hover,
-.main-nav__item--cta a:active {
+.main-nav__item--cta a:hover, .main-nav__item--cta a:active {
    color: #ff1b68;
-   background:  white;
+   background: white;
    border: none;
 }
-
